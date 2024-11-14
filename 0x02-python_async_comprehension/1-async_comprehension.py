@@ -5,6 +5,7 @@
 """
 import importlib
 import asyncio
+from typing import List
 
 # Import async_generator from the previous task using importlib
 async_generator_module = importlib.import_module('0-async_generator')

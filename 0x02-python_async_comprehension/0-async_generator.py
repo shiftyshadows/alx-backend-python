@@ -3,8 +3,10 @@
     This module defines the async
     coroutine: async_generator.
 """
+import importlib
 import asyncio
 import random
+from typing import AsyncGenerator
 
 
 async def async_generator() -> AsyncGenerator[float, None]:
