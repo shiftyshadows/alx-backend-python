@@ -36,4 +36,3 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
         delays.append(delay)
 
     return delays
-
